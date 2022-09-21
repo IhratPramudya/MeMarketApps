@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+add-item data-item .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+add-item data-item .container .content{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+ul{
+    list-style-type: none;
+}
+add-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 20%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+nav ul li{
+    margin-right: 50px;
+}
+
+
+.btn{
+    background-color: #FD841F;
+}
+
+body{
+    height: 1000px;
+}
+
+@media (max-width: 256px) {
+    .data-list-to-media{
+        display: flex;
+        flex-direction: column !important;
+        font-size: 0.1rem;
+    }
+
+    .content-width{
+        width: 100% !important;
+    }
+
+    .content-width .card{
+        width: 100% !important;
+        height: 10% !important;
+        padding: 0 !important;
+    }
+
+    .nav ul{
+        font-size: 0.5rem;
+    }
+    .nav ul li{
+        padding: 0 !important;
+        font-size: 0.5rem !important;
+        margin-right: 5px !important;
+    }
+  }
+  @media (max-width: 512px) {
+    .data-list-to-media{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .content-width{
+        width: 100% !important;
+    }
+
+    .content-width .card{
+        width: 100% !important;
+    }
+
+    .container-fluid{
+        width: 100% !important;
+        font-size: 0.1rem;
+    }
+
+    .nav ul{
+        font-size: 0.5rem;
+    }
+    .nav ul li{
+        padding: 0 !important;
+        font-size: 0.5rem !important;
+        margin-right: 5px !important;
+    }
+  }
+  @media (max-width: 640px) {
+    .data-list-to-media{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .content-width{
+        width: 100% !important;
+    }
+
+    .content-width .card{
+        width: 100% !important;
+    }
+  }
